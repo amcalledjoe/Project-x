@@ -1,0 +1,17 @@
+node -v
+mkdir filaname
+cd filaname
+npm install
+npm init -y
+touch index.js
+nano index.js
+code...
+to save   ctrl+o
+to exit ctrl+x
+to confirm {cat index.js}
+
+todo[
+    learn enrivoment vareiables
+]
+
+node index.js
