@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Website</title>
+    <style>
+        /* Navigation Bar */
+        .navbar {
+            background-color: #f0f0f0;
+            padding: 10px;
+            font-size: 18px;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .nav-link {
+            color: #337ab7;
+        }
+        .nav-link:hover {
+            color: #23527c;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-color: #337ab7;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 36px;
+        }
+        .hero button {
+            background-color: #ffffff;
+            color: #337ab7;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .hero button:hover {
+            background-color: #f0f0f0;
+        }
+
+        /* Slider Section */
+        .slider {
+            margin-top: 20px;
+        }
+        .carousel-inner {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .carousel-caption {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            color: #ffffff;
+        }
+
+        /* Loan Options Section */
+        .loan-options {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .card {
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        .card h5 {
+            font-size: 18px;
+        }
+        .card button {
+            background-color: #337ab7;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        .card button:hover {
+            background-color: #23527c;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Loan Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <h1>Get a Loan Today!</h1>
+            <p>Apply now and get approved in minutes!</p>
+            <button class="btn btn-primary">Apply Now</button>
+        </div>
+    </div>
+    <!-- Slider Section -->
+    <div class="slider">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExample" data-slide-to="1"></li>
+                <li data-target="#carouselExample" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://th.bing.com/th?id=OIP.upoDnVQGeWQqQKUzP3K8wwHaEi&w=319&h=195&c=8&rs=1&qlt=90&o=6&cb=13&pid=3.1&rm=2" alt="Image 1">
+                    <div class="carousel-caption">
+                        <h5>Get a Loan Today!</h5>
+                        <p>Apply now and get approved in minutes!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://th.bing.com/th/id/OIP.lChNNrK8kzK4j-rJJJfT-gHaEK?w=306&h=180&c=7&r=0&o=5&pid=1.7" alt="Image 2">
+                    <div class="carousel-caption">
+                        <h5>Low Interest Rates</h5>
+                        <p>Get the best interest rates on</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</hmtl>
